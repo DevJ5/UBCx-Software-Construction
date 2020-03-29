@@ -2,60 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7407534-a98a-439c-b9b7-0f8d52c63547" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/IntegerSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/test/TestTranscript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/Dogs/Dogs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/Dogs/src/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/Dogs/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/.idea/dictionaries/James.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/LibrarySystemQuiz1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/application/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/model/library/Librarian.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/model/library/Library.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/model/literature/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/model/literature/BookType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/test/BookTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/test/LibrarianTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/test/LibraryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/dictionaries/elisa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/SimpleDrawingPlayer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/runit.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/model/Drawing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/model/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/players/DrawingPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/players/ShapePlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/sound/ChannelData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/sound/MidiSynth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/test/DrawingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/test/ShapeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/DrawingEditor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/DeleteTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/MoveTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/PlayDrawingTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/PlayShapeTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/ResizeTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/ShapeTool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/Tool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lesson_1/intro-to-softconst-lecture-starters.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProblemSets/Set_2/Set_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/Set_2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProblemSets/Set_2/out/production/Set_2/model/Transcript.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/out/production/Set_2/model/Transcript.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/model/Transcript.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/model/Transcript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntegerSetTestStarter/test/IntegerSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntegerSetTestStarter/test/IntegerSetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/IntegerSetUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/IntegerSetUsage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,22 +62,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="489" height="696" key="GridCell.Tab.0.bottom" timestamp="1585482712491">
+    <state width="489" height="696" key="GridCell.Tab.0.bottom" timestamp="1585483428731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="489" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585482712491" />
-    <state width="489" height="696" key="GridCell.Tab.0.center" timestamp="1585482712491">
+    <state width="489" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585483428731" />
+    <state width="489" height="696" key="GridCell.Tab.0.center" timestamp="1585483428731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="489" height="696" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585482712491" />
-    <state width="489" height="696" key="GridCell.Tab.0.left" timestamp="1585482712491">
+    <state width="489" height="696" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585483428731" />
+    <state width="489" height="696" key="GridCell.Tab.0.left" timestamp="1585483428731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="489" height="696" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585482712491" />
-    <state width="489" height="696" key="GridCell.Tab.0.right" timestamp="1585482712491">
+    <state width="489" height="696" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585483428731" />
+    <state width="489" height="696" key="GridCell.Tab.0.right" timestamp="1585483428731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="489" height="696" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585482712491" />
+    <state width="489" height="696" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585483428731" />
     <state x="584" y="346" key="ReplaceDuplicatesPrompt" timestamp="1585482441886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

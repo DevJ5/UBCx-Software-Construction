@@ -9,7 +9,4 @@ public class IntegerSetUsage {
         mySet.insert(3);
         mySet.remove(3);
     }
-
-
-
 }
