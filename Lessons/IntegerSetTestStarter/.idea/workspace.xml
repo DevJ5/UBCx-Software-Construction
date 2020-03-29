@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7407534-a98a-439c-b9b7-0f8d52c63547" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/IntegerSetTestStarter/test/IntegerSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntegerSetTestStarter/test/IntegerSetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/IntegerSetUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/IntegerSetUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProblemSets/Set_2/out/production/Set_2/model/Transcript.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/out/production/Set_2/model/Transcript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProblemSets/Set_2/out/production/Set_2/test/TestTranscript.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/out/production/Set_2/test/TestTranscript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/model/Transcript.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/model/Transcript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/test/TestTranscript.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/test/TestTranscript.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -13,5 +13,6 @@ Specification consists of:
 We write the set up code for each test, and put it in the set up method, and annotate that method with @Before (or @BeforeEach)
 Then we write comments to indicate the 3 parts of the test: 
 - I. check that the set up is correct, 
-- II. call the method to test, 
-- III. check that the outcomes were expected. Write these comments as specifically as possible for what you are testing.
+- II. invoke behaviour to test, 
+- III. check that the outcomes were expected. 
+Write these comments as specifically as possible for what you are testing.

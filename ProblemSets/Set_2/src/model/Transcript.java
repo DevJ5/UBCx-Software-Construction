@@ -5,8 +5,7 @@ public class Transcript {
     private int studentID;
 
     public Transcript(String studentName, int studentID) {
-        this.studentName = studentName;
-        this.studentID = studentID;
+
     }
     // REQUIRES: course != null, 0.0 <= grade <= 4.0
     // MODIFIES: this
@@ -30,4 +29,7 @@ public class Transcript {
         return this.studentName;
     }
 
+    public int getStudentID() {
+        return 0;
+    }
 }
