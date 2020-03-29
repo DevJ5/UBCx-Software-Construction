@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7407534-a98a-439c-b9b7-0f8d52c63547" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/IntegerSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/test/TestTranscript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/Dogs/Dogs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/Dogs/src/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/Dogs/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/.idea/dictionaries/James.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/LibrarySystemQuiz1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/application/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/model/library/Librarian.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/model/library/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/model/literature/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/model/literature/BookType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/test/BookTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/test/LibrarianTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/LibrarySystemQuiz1/src/test/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/dictionaries/elisa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/SimpleDrawingPlayer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/runit.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/model/Drawing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/model/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/players/DrawingPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/players/ShapePlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/sound/ChannelData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/sound/MidiSynth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/test/DrawingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/test/ShapeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/DrawingEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/DeleteTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/MoveTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/PlayDrawingTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/PlayShapeTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/ResizeTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/ShapeTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/SimpleDrawingPlayer/src/ui/tools/Tool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson_1/intro-to-softconst-lecture-starters.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProblemSets/Set_2/Set_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/Set_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProblemSets/Set_2/out/production/Set_2/model/Transcript.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/out/production/Set_2/model/Transcript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/model/Transcript.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProblemSets/Set_2/src/model/Transcript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ZnhXpjBV71vQlSSLmd8btlAbrB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RunManager">
+    <configuration name="IntegerSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IntegerSetTestStarter" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.IntegerSetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IntegerSetTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7407534-a98a-439c-b9b7-0f8d52c63547" name="Default Changelist" comment="" />
+      <created>1585480807262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585480807262</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="489" height="696" key="GridCell.Tab.0.bottom" timestamp="1585482712491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="489" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585482712491" />
+    <state width="489" height="696" key="GridCell.Tab.0.center" timestamp="1585482712491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="489" height="696" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585482712491" />
+    <state width="489" height="696" key="GridCell.Tab.0.left" timestamp="1585482712491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="489" height="696" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585482712491" />
+    <state width="489" height="696" key="GridCell.Tab.0.right" timestamp="1585482712491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="489" height="696" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585482712491" />
+    <state x="584" y="346" key="ReplaceDuplicatesPrompt" timestamp="1585482441886">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="346" key="ReplaceDuplicatesPrompt/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585482441886" />
+    <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585481087577">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585481087577" />
+    <state x="781" y="277" width="538" height="495" key="extract.method.dialog" timestamp="1585482438320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="781" y="277" width="538" height="495" key="extract.method.dialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585482438320" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1585481944292">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585481944292" />
+  </component>
+</project>
