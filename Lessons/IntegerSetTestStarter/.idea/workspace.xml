@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a7407534-a98a-439c-b9b7-0f8d52c63547" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntegerSetTestStarter/model/IntegerSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntegerSetTestStarter/model/IntegerSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntegerSetTestStarter/test/IntegerSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntegerSetTestStarter/test/IntegerSetTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/IntegerSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/IntegerSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/IntegerSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/IntegerSetTest.java" afterDir="false" />
     </list>
