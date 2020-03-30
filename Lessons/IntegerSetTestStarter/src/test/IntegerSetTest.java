@@ -31,6 +31,15 @@ public class IntegerSetTest {
         checkSetContainsOnce(NUM);
     }
 
+    @Test
+    public void testRemove() {
+        checkEmptySetAndDoesntContainNum(NUM);
+        testSet.insert(NUM);
+        checkSetContainsOnce(NUM);
+        testSet.remove(NUM);
+        checkEmptySetAndDoesntContainNum(NUM);
+    }
+
     private void checkEmptySetAndDoesntContainNum(int num) {
         assertEquals(0, testSet.size());
         assertFalse(testSet.contains(num));
@@ -40,5 +49,6 @@ public class IntegerSetTest {
         assertTrue(testSet.contains(num));
         assertEquals(1, testSet.size());
     }
+
 
 }
