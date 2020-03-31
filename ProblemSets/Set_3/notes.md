@@ -7,11 +7,10 @@ Calendar:
 
 # Classes
 Calender: addEntry(), isRepeat(interval), setReminder(), 
-Events: implements Entry; date, time, label
-Meetings: implements Entry; date, time, label; showAttendees(), sendEmails()
-Reminders: implements Entry; date, time, label
+Events: extends Entry; setReminder(), getReminder()
+Meetings: extends Event; getAttendees(), addAttendees(), showAttendees(), sendEmails()
+Reminders: extends Entry; addNote
 
-Interface: Entry: date, time, label
-
+Abstract class Entry: date, time, label, getters, setters
 
 

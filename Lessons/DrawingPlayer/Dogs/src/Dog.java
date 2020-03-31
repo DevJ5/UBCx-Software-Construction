@@ -1,17 +1,18 @@
 import java.util.ArrayList;
 
-public class Dog implements Animal {
+public class Dog extends Mammal implements Animal  {
     protected String name;
-    public String breed;
-    private String owner;
+    private String breed;
+    public String owner;
     public int age;
     public Dog baby;
     public ArrayList<Integer> codes;
 
     public static final int MAX_AGE = 25;
 
-    public Dog(String name) {
+    public Dog(String name, String breed) {
         this.name = name;
+        this.breed = breed;
     }
 
     public void bark() {
@@ -20,5 +21,10 @@ public class Dog implements Animal {
 
     public void walk() {
         System.out.println(this.name + " walking");
+    }
+
+    public void showTeeth() {
+        nOfTeeth = 23;
+        System.out.println("Shows dog :D");
     }
 }
