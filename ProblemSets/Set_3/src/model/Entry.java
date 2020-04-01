@@ -4,35 +4,39 @@ import java.sql.Time;
 import java.util.Date;
 
 public abstract class Entry {
-    public Date date;
-    public Time time;
-    public String label;
-    public boolean isRepeating;
-    public int intervalOfRepetition = 0;
+    private Date datetime;
+    private Time time;
+    private String label;
 
-    public Entry(Date date, Time time, String label, boolean isRepeating, int intervalOfRepetition) {
-        this.date = date;
-        this.time = time;
+    private int intervalOfRepetition = 0;
+
+    // REQUIRES a valid date and time, label can be null
+    // MODIFIES this
+    // EFFECTS, constructs
+    public Entry(Date datetime, String label) {
+        this.datetime = datetime;
         this.label = label;
-        this.isRepeating = isRepeating;
-        this.intervalOfRepetition = intervalOfRepetition;
     }
 
-    //Getters
-    public Date getDate() {
-        return this.date;
+    // EFFECTS returns if this entry is repeating, which is the case if the interval of repetition is set.
+    public boolean isRepeatingEntry() {
+        return this.intervalOfRepetition != 0;
     }
-    public Time getTime() {
-        return this.time;
+
+    // Getters
+    public Date getDateTime() {
+        return this.datetime;
     }
     public String getLabel(){
         return this.label;
     }
-    public boolean getIsRepeating() {
-        return this.isRepeating;
-    }
     public int getIntervalOfRepetition() {
         return this.intervalOfRepetition;
+    }
+
+    // Setters
+    public void setIntervalOfRepetition(int intervalOfRepetition) {
+        this.intervalOfRepetition = intervalOfRepetition;
     }
 
 }

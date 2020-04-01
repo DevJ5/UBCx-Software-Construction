@@ -6,8 +6,8 @@ Calendar:
 - Reminders should have functionality to add notes
 
 # Classes
-Calender: addEntry(), isRepeat(interval), setReminder(), 
-Events: extends Entry; setReminder(), getReminder()
+Calender: addEntry() , setReminder(), 
+Events: extends Entry; isRepeat(interval) setReminder(), getReminder()
 Meetings: extends Event; getAttendees(), addAttendees(), showAttendees(), sendEmails()
 Reminders: extends Entry; addNote
 
