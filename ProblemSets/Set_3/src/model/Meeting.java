@@ -12,8 +12,8 @@ public class Meeting extends Event {
         this.attendees = new ArrayList<Attendee>();
     }
 
-    public void addAttendee(String name, String email) {
-        this.attendees.add(new Attendee(name, email));
+    public void addAttendee(Attendee attendee) {
+        this.attendees.add(attendee);
     }
 
     public void printAttendeeList() {
@@ -28,5 +28,7 @@ public class Meeting extends Event {
         }
     }
 
-
+    public List<Attendee> getAttendees() {
+        return attendees;
+    }
 }

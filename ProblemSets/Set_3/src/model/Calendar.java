@@ -20,4 +20,12 @@ public class Calendar {
             System.out.println(entry.getDateTime() + "\n" + entry.getLabel());
         }
     }
+
+    public List<Entry> getEntries() {
+        return entries;
+    }
+
+    public void removeEntry(Event event) {
+        entries.remove(event);
+    }
 }
