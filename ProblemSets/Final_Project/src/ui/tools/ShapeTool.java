@@ -66,6 +66,10 @@ public class ShapeTool extends Tool {
 
 	//EFFECTS: Constructs and returns the new shape
 	private void makeShape(MouseEvent e) {
+        System.out.println(this.getClass().getName());
+        System.out.println(this instanceof RectangleTool);
+
+        // create case statement for creating a rectangle/oval models?
 		shape = new Shape(e.getPoint(), editor.getMidiSynth());
 	}
 

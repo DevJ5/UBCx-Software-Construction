@@ -14,4 +14,8 @@ public abstract class Mammal {
         System.out.println("Shows mammal teeth :D");
         System.out.println(nOfTeeth);
     }
+
+    private void callme() {
+
+    }
 }

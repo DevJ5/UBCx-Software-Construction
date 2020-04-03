@@ -3,6 +3,7 @@ package ui.tools;
 import ui.DrawingEditor;
 
 import javax.swing.*;
+import java.awt.event.MouseEvent;
 
 public class RectangleTool extends ShapeTool {
     public RectangleTool(DrawingEditor editor, JComponent parent) {
@@ -16,4 +17,6 @@ public class RectangleTool extends ShapeTool {
         button = new JButton("Rectangle");
         button = customizeButton(button);
     }
+
+
 }
