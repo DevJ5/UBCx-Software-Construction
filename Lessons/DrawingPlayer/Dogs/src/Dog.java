@@ -11,6 +11,7 @@ public class Dog extends Mammal implements Animal  {
     public static final int MAX_AGE = 25;
 
     public Dog(String name, String breed) {
+        System.out.println("Dog constructor running.");
         this.name = name;
         this.breed = breed;
     }
@@ -23,8 +24,8 @@ public class Dog extends Mammal implements Animal  {
         System.out.println(this.name + " walking");
     }
 
-    public void showTeeth() {
-        nOfTeeth = 23;
-        System.out.println("Shows dog :D");
-    }
+//    public void showTeeth() {
+//        nOfTeeth = 23;
+//        System.out.println("Shows dog :D");
+//    }
 }

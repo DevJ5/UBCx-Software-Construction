@@ -1,8 +1,8 @@
 There are four phases in our design approach (often applied in a circular way): specification of public interface, usage scenarios, test specification, and finally implementation. 
 
-1) Create a model
+1) Create a model - UML
 
-We start thinking about usage scenarios by putting stubs in for all the methods in the class. These stubs include the proper signature (name, parameter list) and full specifications.
+Together with a UML start thinking about usage scenarios by putting stubs in for all the methods in the class. These stubs include the proper signature (name, parameter list) and full specifications.
 
 Specification consists of:
 

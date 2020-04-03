@@ -56,14 +56,6 @@ public class DrawingEditor extends JFrame {
         setVisible(true);
     }
 
-	// MODIFIES: this
-	// EFFECTS:  initializes a DrawingMouseListener to be used in the JFrame
-    private void initializeInteraction() {
-        DrawingMouseListener dml = new DrawingMouseListener();
-        addMouseListener(dml);
-        addMouseMotionListener(dml);
-    }
-
     // MODIFIES: this
     // EFFECTS:  initializes this DrawingEditor's midisynth field, then calls open() on it
     private void initializeSound() {
@@ -71,7 +63,13 @@ public class DrawingEditor extends JFrame {
         midiSynth.open();
     }
 
-
+	// MODIFIES: this
+	// EFFECTS:  initializes a DrawingMouseListener to be used in the JFrame
+    private void initializeInteraction() {
+        DrawingMouseListener dml = new DrawingMouseListener();
+        addMouseListener(dml);
+        addMouseMotionListener(dml);
+    }
 
     // getters
     public Drawing getCurrentDrawing(){ return currentDrawing; }
@@ -152,10 +150,10 @@ public class DrawingEditor extends JFrame {
 		toolArea.setSize(new Dimension(0, 0));
 		add(toolArea, BorderLayout.NORTH);
 
-        ShapeTool rectTool = new ShapeTool(this, toolArea);
+        ShapeTool rectTool = new RectangleTool(this, toolArea);
         tools.add(rectTool);
 
-        ShapeTool ovalTool = new ShapeTool(this, toolArea);
+        ShapeTool ovalTool = new OvalTool(this, toolArea);
         tools.add(ovalTool);
 
         MoveTool moveTool = new MoveTool(this, toolArea);
