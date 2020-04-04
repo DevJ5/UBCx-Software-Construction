@@ -55,11 +55,6 @@ public abstract class ShapeTool extends Tool {
 		shape.setBounds(e.getPoint());
 	}
 
-	//EFFECTS: Returns the string for the label.
-	private String getLabel() {
-		return "Shape";
-	}
-
 	//EFFECTS: Constructs and returns the new shape
 	protected abstract void makeShape(MouseEvent e);
 

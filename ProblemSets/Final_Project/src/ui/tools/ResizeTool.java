@@ -21,9 +21,8 @@ public class ResizeTool extends Tool {
     // MODIFIES: this
     // EFFECTS: creates new button and adds to parent
 	@Override
-	protected void createButton(JComponent parent) {
+	protected void createButton() {
 		button = new JButton("Resize");
-		addToParent(parent);
 	}
 
     // MODIFIES: this
