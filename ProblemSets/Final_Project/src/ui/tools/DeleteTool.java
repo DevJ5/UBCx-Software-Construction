@@ -21,9 +21,8 @@ public class DeleteTool extends Tool {
     // EFFECTS:  constructs a delete button which is then added to the JComponent (parent)
     //           which is passed in as a parameter
 	@Override
-	protected void createButton(JComponent parent) {
+	protected void createButton() {
 		button = new JButton("Delete");
-		addToParent(parent);
 	}
 
     // MODIFIES: this

@@ -27,10 +27,8 @@ public class PlayShapeTool extends Tool {
     // EFFECTS:  creates a new "Play Shape" button and invokes addToParent() on the
     //           parent passed to this method
     @Override
-    protected void createButton(JComponent parent) {
+    protected void createButton() {
         button = new JButton("Play Shape");
-        button = customizeButton(button);
-        addToParent(parent);
     }
 
     // MODIFIES: this

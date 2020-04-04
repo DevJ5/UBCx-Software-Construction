@@ -1,5 +1,6 @@
 package ui.tools;
 
+import model.Shape;
 import ui.DrawingEditor;
 
 import javax.swing.*;
@@ -13,9 +14,17 @@ public class RectangleTool extends ShapeTool {
     // MODIFIES: this
     // EFFECTS:  creates new button and adds to parent
     @Override
-    protected void createButton(JComponent parent) {
+    protected void createButton() {
         button = new JButton("Rectangle");
-        button = customizeButton(button);
+    }
+
+    @Override
+    protected void makeShape(MouseEvent e) {
+        System.out.println(this.getClass().getName());
+        System.out.println(this instanceof RectangleTool);
+
+        // create case statement for creating a rectangle/oval models?
+        shape = new Shape(e.getPoint(), editor.getMidiSynth());
     }
 
 

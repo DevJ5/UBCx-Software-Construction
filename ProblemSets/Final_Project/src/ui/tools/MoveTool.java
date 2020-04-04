@@ -24,9 +24,8 @@ public class MoveTool extends Tool {
     // EFFECTS:  constructs a move button which is then added to the JComponent (parent)
     //           which is passed in as a parameter
 	@Override
-	protected void createButton(JComponent parent) {
+	protected void createButton() {
 		button = new JButton("Move");
-		addToParent(parent);
 	}
 
     // MODIFIES: this

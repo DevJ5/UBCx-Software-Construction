@@ -16,7 +16,8 @@ public abstract class Tool {
 
 	public Tool(DrawingEditor editor, JComponent parent) {
 		this.editor = editor;
-		createButton(parent);
+		createButton();
+        button = customizeButton(button);
 		addToParent(parent);
 		active = false;
 		addListener();
@@ -45,7 +46,7 @@ public abstract class Tool {
 	}
 
     // EFFECTS: creates button to activate tool
-	protected abstract void createButton(JComponent parent);
+	protected abstract void createButton();
 
 	// EFFECTS: adds a listener for this tool
 	protected abstract void addListener();

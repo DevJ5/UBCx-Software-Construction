@@ -10,8 +10,7 @@ public class OvalTool extends ShapeTool {
     }
 
     @Override
-    protected void createButton(JComponent parent) {
+    protected void createButton() {
         button = new JButton("Oval");
-        button = customizeButton(button);
     }
 }
