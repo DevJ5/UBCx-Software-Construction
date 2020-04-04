@@ -1,5 +1,7 @@
 package sound;
 
+import model.Drawing;
+
 import javax.sound.midi.MidiChannel;
 
 public class ChannelData {
