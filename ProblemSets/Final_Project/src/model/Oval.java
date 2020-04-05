@@ -7,7 +7,7 @@ import java.awt.*;
 public class Oval extends Shape {
 
     public Oval(Point topLeft, MidiSynth midiSynth) {
-        super(topLeft, midiSynth, new Color(230, 158, 60), 0);
+        super(topLeft, midiSynth, new Color(0,255, 0), 7);
     }
 
     @Override

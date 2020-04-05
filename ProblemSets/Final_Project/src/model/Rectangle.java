@@ -6,7 +6,7 @@ import java.awt.*;
 
 public class Rectangle extends Shape {
     public Rectangle(Point topLeft, MidiSynth midiSynth) {
-        super(topLeft, midiSynth, new Color(230, 158, 60), 0);
+        super(topLeft, midiSynth, new Color(230, 158, 60), 1);
     }
 
     @Override
