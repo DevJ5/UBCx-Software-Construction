@@ -55,8 +55,9 @@ public abstract class ShapeTool extends Tool {
 		shape.setBounds(e.getPoint());
 	}
 
-	//EFFECTS: Constructs and returns the new shape
-	protected abstract void makeShape(MouseEvent e);
+	//EFFECTS: Default behaviouor
+	public void makeShape(MouseEvent e) {
+    };
 
 	private class ShapeToolClickHandler implements ActionListener {
 

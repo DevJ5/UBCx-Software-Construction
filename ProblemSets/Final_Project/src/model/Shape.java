@@ -6,28 +6,27 @@ import sound.MidiSynth;
 import java.awt.*;
 
 
-public class Shape {
+public abstract class Shape {
     private static Color PLAYING_COLOR;
 
-    private int x;
-    private int y;
-    private int width;
-    private int height;
+    protected int x;
+    protected int y;
+    protected int width;
+    protected int height;
 
     private boolean selected;
-
-    private MidiSynth midiSynth;
-    private int instrument;
+    protected int instrument;
+    public MidiSynth midiSynth;
     private int playLineCoord;
 
 
-    public Shape(Point topLeft, MidiSynth midiSynth) {
+    public Shape(Point topLeft, MidiSynth midiSynth, Color playingColor, int instrument) {
         this((int) topLeft.getX(), (int) topLeft.getY(), 0, 0); //note to students: calls the other constructor!
         selected = false;
         this.midiSynth = midiSynth;
-        instrument = 0;
+        this.instrument = instrument;
         playLineCoord = 0;
-        PLAYING_COLOR = new Color(230, 158, 60);
+        PLAYING_COLOR = playingColor;
     }
 
 
@@ -129,18 +128,13 @@ public class Shape {
     }
 
     //EFFECTS: draws the shape
-    private void drawGraphics(Graphics g) {
-        g.drawRect(x, y, width, height);
-    }
+    protected abstract void drawGraphics(Graphics g);
 
     //EFFECTS: fills the shape
-    private void fillGraphics(Graphics g) {
-        g.fillRect(x, y, width, height);
-    }
+    protected abstract void fillGraphics(Graphics g);
 
-
-    // EFFECTS: starts playing this Shape, where sound is dependent on the area/coordinates of the Shape
-    private void play(){
+    // EFFECTS: default behaviour
+    public void play(){
         int volume = areaToVelocity(width * height);
         midiSynth.play(instrument, coordToNote(y), volume);
     }
@@ -153,12 +147,12 @@ public class Shape {
     // EFFECTS: return a velocity based on the area of a Shape
     //          The only meaningful velocities are between 0 and 127
     //          Velocities less than 60 are too quiet to be heard
-    private int areaToVelocity(int area) {
+    protected int areaToVelocity(int area) {
         return Math.max(60, Math.min(127, area / 30));
     }
 
     // EFFECTS: maps a given integer to a valid associated note
-    private int coordToNote(int y) {
+    protected int coordToNote(int y) {
         return 70 - y / 12;
     }
 }

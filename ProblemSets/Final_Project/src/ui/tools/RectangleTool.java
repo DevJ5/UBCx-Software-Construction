@@ -1,5 +1,6 @@
 package ui.tools;
 
+import model.Rectangle;
 import model.Shape;
 import ui.DrawingEditor;
 
@@ -19,12 +20,12 @@ public class RectangleTool extends ShapeTool {
     }
 
     @Override
-    protected void makeShape(MouseEvent e) {
+    public void makeShape(MouseEvent e) {
         System.out.println(this.getClass().getName());
         System.out.println(this instanceof RectangleTool);
 
         // create case statement for creating a rectangle/oval models?
-        shape = new Shape(e.getPoint(), editor.getMidiSynth());
+        shape = new Rectangle(e.getPoint(), editor.getMidiSynth());
     }
 
 

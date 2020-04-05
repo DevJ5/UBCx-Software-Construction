@@ -1,5 +1,6 @@
 package ui.tools;
 
+import model.Oval;
 import model.Shape;
 import ui.DrawingEditor;
 
@@ -17,10 +18,10 @@ public class OvalTool extends ShapeTool {
     }
 
     @Override
-    protected void makeShape(MouseEvent e) {
+    public void makeShape(MouseEvent e) {
         System.out.println(this.getClass().getName());
         System.out.println(this instanceof OvalTool);
 
-        shape = new Shape(e.getPoint(), editor.getMidiSynth());
+        shape = new Oval(e.getPoint(), editor.getMidiSynth());
     }
 }

@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-
 public class Dog extends Mammal implements Animal  {
     protected String name;
     private String breed;
